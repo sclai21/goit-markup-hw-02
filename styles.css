@@ -92,7 +92,7 @@ header{
     letter-spacing: 0.03em;
     text-decoration: none;
     
-    color:var(--#2196F3);
+    color:var(--#2196F3)
     
 }
 
@@ -159,6 +159,14 @@ div{
     background: #2F303A;
     text-align: center;
 }
+
+.t-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: .86;
+    letter-spacing: 0.03em;
+}
+
 .table-our-mission{
     position: absolute;
         width: 1170px;
