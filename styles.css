@@ -1,6 +1,6 @@
 body{
     /* text-align: center; */
-    font-family: Roboto;
+    font-family: 'Roboto','sans-serif';
 }
 
 h1{
@@ -14,7 +14,7 @@ h1{
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     /* or 136% */
     
     /* text-align: center; */
@@ -24,7 +24,7 @@ h1{
     color: #FFFFFF;
 }
 
-button{
+.request-service{
     position: absolute;
     width: 200px;
     height: 50px;
@@ -35,7 +35,7 @@ button{
     /* font-style: normal; */
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     /* identical to box height, or 188% */
 
     display: flex;
@@ -44,21 +44,25 @@ button{
     letter-spacing: 0.06em;
 
     color: #FFFFFF;
-
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+    
     
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    cursor: pointer;
+    
 }
 
 button:hover{
+    background: #188CE8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+}
 
+button:focus{
+    background: #188CE8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
 }
 
 header{
@@ -78,17 +82,17 @@ header{
 }
 .logo-edit{
     
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family:'Raleway';
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     /* identical to box height */
     
     letter-spacing: 0.03em;
     text-decoration: none;
     
-    color: #2196F3;
+    color:var(--#2196F3);
     
 }
 
@@ -96,11 +100,13 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+
     font-family: 'Roboto';
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     /* identical to box height, or 188% */
 
     letter-spacing: 0.03em;
@@ -114,22 +120,31 @@ li{
     height: 16px;
     left: 453px;
     top: 32px; */
-    float: left;
-    text-decoration: none;
+    /* float: left; */
+    /* text-decoration: none; */
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: .88;
     letter-spacing: 0.02em;
     display: inline;
 }
 
-li a{
+/* li a{
     display: block;
     padding: 8px;
-}
+} */
 
 footer{
     text-align: left;
+
+    position: absolute;
+        width: 1600px;
+        height: 252px;
+        left: 0px;
+        top: 2097px;
+    
+        background: #2F303A;
+        
 }
 
 
@@ -162,19 +177,72 @@ div{
 .table-header{
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: .88;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .table-our-team-postion{
     position: absolute;
-        width: 1600px;
-        height: 648px;
-        left: 0px;
-        top: 1449px;
+        width: 1170px;
+        height: 368px;
+        left: 215px;
+        top: 1635px;
     
         background: #F5F4FA;
 }
 
+.portfolio-main{
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+    background-color:#ffffff;
+}
 
+.filter-button{
+    /* width: 109px;
+    height: 36px; */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+}
+
+.contact-styling{
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+.contact-styling:hover{
+    color:rgb(127, 255, 255);
+    font-size: 16px;
+}
+
+.contact-styling:focus{
+    color: rgb(127, 255, 255);
+    font-size: 16px;
+}
+
+/* .logo-edit:hover{
+    color: rgb(127, 255, 255);
+    font-size: 16px;
+}
+
+.logo-edit:focus {
+    color: rgb(127, 255, 255);
+    font-size: 16px;
+} */
+
+.nav-edit:hover{
+    /* color: rgb(127, 255, 255); */
+    font-size: 16px;
+}
+
+.nav-edit:focus{
+    /* color: rgb(127, 255, 255); */
+    font-size: 16px;
+}
