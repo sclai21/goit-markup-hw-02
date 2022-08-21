@@ -1,4 +1,39 @@
-body{
-    /* text-align: center; */
-    font-family: 'Roboto','sans-serif';
+:root{
+    --color:rgb(33, 150, 243);
+}
+
+.logo{
+    color: var(--color);
+    font-family:'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 400;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+}
+
+button{
+    
+    background-color: var(--color);
+    color: white;
+}
+
+.list-transform {
+    list-style-type: none;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.link{    
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;    
 }
