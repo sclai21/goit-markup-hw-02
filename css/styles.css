@@ -1,37 +1,139 @@
 :root{
     --color:rgb(33, 150, 243);
+    --background-color:#2F303A;
 }
-
+.selected{
+    color:var(--color);
+}
 .logo{
     color: var(--color);
     font-family:'Raleway', sans-serif;
     text-decoration: none;
     font-size: 26px;
     font-weight: 400;
+    line-height: 1.2;
 }
+.selected-btn{
+    background-color: var(--color);
+    color:white;
+}
+
+.header-btn-div{
+    background-color: var(--background-color);
+    
+}
+
+header > .link{
+    line-height: 1.14;
+}
+
 h1{
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
+    color: white;
+}
+button{
+    line-height: 1.6;
 }
 
-button{
-    
+.header-btn-div > button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
     background-color: var(--color);
     color: white;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #188CE8;
+}
+button:focus{
+    background-color: #188CE8;
 }
 
 .list-transform {
     list-style-type: none;
+
 }
-h2{
-    text-align: center;
+a{
+    text-decoration: none;
+    font-style: normal;
 }
-h3{
-    text-align: center;
+footer a{
+    text-decoration: none;
+    font-style: normal;
+    color: white;
 }
 
+a:hover{
+    color: aqua;
+    
+}
+
+a:focus{
+    color: aqua;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+/* group 1 div*/
+.group-1{
+    /* text-align: center; */
+    font-size: 14px;
+    /* font-weight: 700; */
+}
+
+.group-1 > p{
+    line-height: 1.7;
+}
+/* what we do div */
+
+/* our team div*/
+.our-team{
+    text-align: center;
+    font-size: 16px;
+    background-color: #F5F4FA;
+}
+
+.our-team > h3{
+    line-height: 1.2;
+}
+
+.our-team > p{
+    line-height: 1.2;
+}
+
+.card-bg{
+    background-color: white;
+}
+/* portfolio section */
+.projects{
+    text-align: center;
+}
+.projects h3{
+    font-size: 18px;
+    line-height: 2;
+}
+.projects p{
+    font-size: 16px;
+    line-height: 1.8;
+}
+.footer{
+    background-color: var(--background-color);
+    
+}
+
+address {    
+    line-height: 1.7;
+    color: white;
+}
 .link{    
     text-decoration: none;
     font-style: normal;
