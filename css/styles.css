@@ -33,10 +33,6 @@ nav{
     
 }
 
-header > .link{
-    line-height: 1.14;
-}
-
 h1{
     text-align: center;
     text-transform: uppercase;
@@ -52,9 +48,13 @@ button{
 
 .hero{
     background-color: var(--background-color);
+    color: white;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
 }
 
-.hero-btn-div > button{
+.hero-btn{
     font-size: 16px;
     font-weight: 700;
     line-height: 1.9;
@@ -87,8 +87,9 @@ button:focus{
 footer a{
     text-decoration: none;
     font-style: normal;
-    color: rgba(255, 255, 255, 0.6);
+    color: inherit;
 }
+
 
 .link:hover{
     color: #188CE8;
@@ -167,7 +168,7 @@ h2{
     font-size: 14px;
         
 }
-address {    
+address .address-color{    
     line-height: 1.7;
     color: white;
 }
