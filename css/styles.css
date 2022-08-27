@@ -1,6 +1,7 @@
 :root{
     --color:rgb(33, 150, 243);
     --background-color:#2F303A;
+    
 }
 .selected{
     color:var(--color);
@@ -10,8 +11,17 @@
     font-family:'Raleway', sans-serif;
     text-decoration: none;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.2;
+}
+header > li{
+    font-size: 14px;
+    line-height: 1.14;
+    line: spacing 0.02em;
+}
+nav{
+    font-weight: 500;
+    
 }
 .selected-btn{
     background-color: var(--color);
@@ -36,14 +46,23 @@ h1{
 }
 button{
     line-height: 1.6;
+    border: none;
+    font-weight: 500;
 }
 
-.header-btn-div > button{
+.hero{
+    background-color: var(--background-color);
+}
+
+.hero-btn-div > button{
     font-size: 16px;
     font-weight: 700;
-    line-height: 1.8;
+    line-height: 1.9;
     background-color: var(--color);
     color: white;
+
+    border: none;
+    
 }
 button:hover {
     cursor: pointer;
@@ -53,28 +72,40 @@ button:focus{
     background-color: #188CE8;
 }
 
-.list-transform {
+.list{
     list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color:inherit;
 
 }
-a{
+/* .link{
     text-decoration: none;
     font-style: normal;
-}
+} */
 footer a{
     text-decoration: none;
     font-style: normal;
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-a:hover{
-    color: aqua;
+.link:hover{
+    color: #188CE8;
     
 }
 
-a:focus{
-    color: aqua;
+.link:focus{
+    color: #188CE8;
     
+}
+
+footer .link:hover{
+    color:rgba(255, 255, 255, 0.6);
+}
+
+footer .link:focus{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 h2{
@@ -97,7 +128,7 @@ h2{
 
 /* our team div*/
 .our-team{
-    text-align: center;
+    
     font-size: 16px;
     background-color: #F5F4FA;
 }
@@ -114,9 +145,9 @@ h2{
     background-color: white;
 }
 /* portfolio section */
-.projects{
+/* .projects{
     text-align: center;
-}
+} */
 .projects h3{
     font-size: 18px;
     line-height: 2;
@@ -130,12 +161,58 @@ h2{
     
 }
 
+.link{    
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+        
+}
 address {    
     line-height: 1.7;
     color: white;
 }
-.link{    
-    text-decoration: none;
-    font-style: normal;
-    font-size: 14px;    
+.bold-color{
+    color: rgba(33, 33, 33, 1);
+    /* font-weight: 500; */
 }
+
+.color-transform{
+    color:inherit;
+}
+.studio-h3-font-transform{
+    font-family: Roboto;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgba(33, 33, 33, 1);
+}
+
+.studio-p-text-transform{
+    font-family: Roboto;
+    font-size: inherit;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.portfolio-h3-font-transform {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: rgba(33, 33, 33, 1);
+}
+
+.portfolio-p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
